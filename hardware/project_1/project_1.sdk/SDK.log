@@ -1,0 +1,26 @@
+15:42:53 INFO  : Processing command line option -hwspec /home/tim/project_1/project_1.sdk/design_1_wrapper.hdf.
+15:43:21 INFO  : Launching XSDB server: xsdb -n -s /media/tim/New/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:43:54 ERROR : Timed out. 30 seconds have elapsed while waiting for XSDB server to launch.
+15:45:46 INFO  : BSP Project P/zynq_fsbl has been successfully migrated.
+15:47:20 INFO  : Processing command line option -hwspec /home/tim/project_1/project_1.sdk/design_1_wrapper.hdf.
+15:47:26 INFO  : Launching XSDB server: xsdb -n -s /media/tim/New/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+15:47:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:47:56 ERROR : Timed out. 30 seconds have elapsed while waiting for XSDB server to launch.
+15:49:10 INFO  : BSP Project P/zynq_fsbl has been successfully migrated.
+20:06:42 INFO  : Processing command line option -hwspec /home/tim/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:06:43 INFO  : Launching XSDB server: xsdb -n -s /media/tim/New/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+20:06:47 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:06:47 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1433472110000,  Project:1432580863000
+20:06:47 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /home/tim/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:06:47 INFO  : Copied contents of /home/tim/project_1/project_1.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+20:06:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:06:56 INFO  : 
+20:06:56 INFO  : Clearing existing target manager status.
+20:07:02 INFO  : Closing and re-opening the MSS file of ther project zynq_fsbl
+20:07:03 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:07:13 ERROR : Timed out. 30 seconds have elapsed while waiting for XSDB server to launch.
+05:42:30 ERROR : Unexpected error while displaying Software Platform Settings Dialog for: zynq_fsbl
+05:54:15 INFO  : Invoking Bootgen: bootgen -image output.bif -o /home/tim/project_1/project_1.sdk/BOOT.bin -w on
+05:54:15 INFO  : Overwriting existing bif file /home/tim/project_1/project_1.sdk/output.bif
+05:54:16 INFO  : Bootgen command execution is done.
+06:23:49 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

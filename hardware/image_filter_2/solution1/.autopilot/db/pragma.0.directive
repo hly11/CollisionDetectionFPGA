@@ -1,0 +1,66 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="PadImage" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="FilterTest" label="">
+<pragma name="PIPELINE">
+<option name="rewind" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="FilterTest" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="test" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="test" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="input_stream"/>
+<option name="bundle" value="bus_input_axis"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="output_stream"/>
+<option name="bundle" value="bus_output_axis"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="filter_size"/>
+<option name="bundle" value="control_bus"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="rows"/>
+<option name="bundle" value="control_bus"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="cols"/>
+<option name="bundle" value="control_bus"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+<option name="bundle" value="control_bus"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="image_filter_fh" label="">
+<pragma name="DATAFLOW"/>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

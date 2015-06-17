@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_fh_Mat2AXIvideo&lt;32, 480, 640, 5>' to 'image_filter_fh_Mat2AXIvideo_32_480_640_5_s'." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:22.644-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_fh_FilterTest&lt;480, 640>1' to 'image_filter_fh_FilterTest_480_640_1'." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.934-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_fh_Block_Mat.exit71218_proc' to 'image_filter_fh_Block_Mat_exit71218_proc'." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.914-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_fh_PadImage&lt;480, 640, 51>' to 'image_filter_fh_PadImage_480_640_51_s'." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.900-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_fh_AXIvideo2Mat&lt;32, 480, 640, 5>' to 'image_filter_fh_AXIvideo2Mat_32_480_640_5_s'." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.880-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_fh_Block_Mat.exit712_proc' to 'image_filter_fh_Block_Mat_exit712_proc'." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.864-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_50' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.847-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_49' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.425-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_48' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.405-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_47' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.383-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_46' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.363-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_45' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.350-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_44' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.322-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_43' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.296-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_42' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.276-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_41' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.252-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_40' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.228-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_39' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.205-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_38' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.184-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_37' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.167-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_36' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.151-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_35' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.132-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_34' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.118-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_33' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.104-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_32' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.093-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_31' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.076-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_30' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.059-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_29' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.042-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_28' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.030-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_27' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:19.008-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_26' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.982-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_25' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.958-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_24' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.937-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_23' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.920-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_22' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.895-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_21' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.878-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_20' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.860-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_19' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.832-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_18' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.817-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_17' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.792-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_16' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.775-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_15' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.761-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_14' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.734-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_13' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.727-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_12' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.716-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_11' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.707-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_10' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.695-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_9' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.679-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_8' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.659-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_7' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.648-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_6' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.638-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_5' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.624-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_4' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.594-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_3' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.569-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_2' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.558-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_1' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.537-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'linebuf_51_val_0' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.513-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_50' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.490-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_49' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.480-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_48' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.472-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_47' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.461-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_46' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.452-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_45' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.422-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_44' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.414-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_43' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.400-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_42' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.389-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_41' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.371-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_40' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.342-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_39' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.331-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_38' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.321-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_37' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.308-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_36' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.299-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_35' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.272-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_34' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.263-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_33' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.256-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_32' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.249-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_31' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.244-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_30' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.238-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_29' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.229-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_28' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.217-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_27' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.198-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_26' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.185-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_25' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.173-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_24' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.155-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_23' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.137-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_22' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.124-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_21' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.114-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_20' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.099-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_19' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.088-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_18' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.077-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_17' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.063-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_16' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.052-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_15' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.042-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_14' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.031-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_13' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.023-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_12' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.010-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_11' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:18.001-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_10' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.990-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_9' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.981-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_8' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.977-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_7' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.960-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_6' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.956-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_5' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.942-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_4' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.928-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_3' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.911-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_2' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.887-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_1' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.872-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'linebuf_51_val_0' (top.cpp:132)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.862-0700" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::Mat2AXIvideo&lt;32, 480, 640, 5>' (/media/tim/New/Vivado_HLS/2015.1/common/technology/autopilot/hls/hls_video_io.h:111) into Mat2AXIvideo&lt;32, 480, 640, 5>." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:17.779-0700" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::AXIvideo2Mat&lt;32, 480, 640, 5>' (/media/tim/New/Vivado_HLS/2015.1/common/technology/autopilot/hls/hls_video_io.h:49) into AXIvideo2Mat&lt;32, 480, 640, 5>." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:16.253-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-31] The program may have out of bound access of array variable 'linebuffer' in function 'PadImage&lt;480, 640, 51>' (top.cpp:28:7)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:51:06.550-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_12.data_stream.V' (top.cpp:698)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:50:29.645-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_1.data_stream.V' (top.cpp:697)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:50:28.984-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_0.data_stream.V' (top.cpp:694)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:50:28.966-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_2.data_stream.V' (top.cpp:699)." projectName="image_filter_2" solutionName="solution1" date="2015-06-03T13:50:28.947-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

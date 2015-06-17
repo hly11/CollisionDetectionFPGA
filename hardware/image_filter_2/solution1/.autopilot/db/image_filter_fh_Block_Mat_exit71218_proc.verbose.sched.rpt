@@ -1,0 +1,224 @@
+
+
+================================================================
+== Vivado HLS Report for 'image_filter_fh_Block_Mat_exit71218_proc'
+================================================================
+* Date:           Wed Jun  3 13:51:23 2015
+
+* Version:        2015.1 (Build 1215546 on Mon Apr 27 19:24:50 PM 2015)
+* Project:        image_filter_2
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.50|      5.48|        0.81|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    2|    2|    2|    2|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 3
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+* FSM state operations: 
+
+ <State 1>: 2.52ns
+ST_1: filter_size_read [1/1] 0.00ns
+newFuncRoot_ifconv:0  %filter_size_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %filter_size)
+
+ST_1: tmp_s [1/1] 2.52ns
+newFuncRoot_ifconv:1  %tmp_s = icmp eq i32 %filter_size_read, 9
+
+ST_1: tmp_1 [1/1] 2.52ns
+newFuncRoot_ifconv:2  %tmp_1 = icmp eq i32 %filter_size_read, 15
+
+ST_1: tmp_2 [1/1] 2.52ns
+newFuncRoot_ifconv:3  %tmp_2 = icmp eq i32 %filter_size_read, 21
+
+ST_1: tmp_3 [1/1] 2.52ns
+newFuncRoot_ifconv:4  %tmp_3 = icmp eq i32 %filter_size_read, 27
+
+ST_1: tmp_4 [1/1] 2.52ns
+newFuncRoot_ifconv:5  %tmp_4 = icmp eq i32 %filter_size_read, 39
+
+
+ <State 2>: 5.48ns
+ST_2: sel_tmp1 [1/1] 1.37ns
+newFuncRoot_ifconv:6  %sel_tmp1 = xor i1 %tmp_s, true
+
+ST_2: sel_tmp2 [1/1] 1.37ns
+newFuncRoot_ifconv:7  %sel_tmp2 = and i1 %tmp_1, %sel_tmp1
+
+ST_2: sel_tmp6_demorgan [1/1] 1.37ns
+newFuncRoot_ifconv:8  %sel_tmp6_demorgan = or i1 %tmp_s, %tmp_1
+
+ST_2: sel_tmp6 [1/1] 1.37ns
+newFuncRoot_ifconv:9  %sel_tmp6 = xor i1 %sel_tmp6_demorgan, true
+
+ST_2: sel_tmp7 [1/1] 1.37ns
+newFuncRoot_ifconv:10  %sel_tmp7 = and i1 %tmp_2, %sel_tmp6
+
+ST_2: sel_tmp13_demorgan [1/1] 1.37ns
+newFuncRoot_ifconv:11  %sel_tmp13_demorgan = or i1 %sel_tmp6_demorgan, %tmp_2
+
+ST_2: sel_tmp13 [1/1] 1.37ns
+newFuncRoot_ifconv:12  %sel_tmp13 = xor i1 %sel_tmp13_demorgan, true
+
+ST_2: sel_tmp14 [1/1] 1.37ns
+newFuncRoot_ifconv:13  %sel_tmp14 = and i1 %tmp_3, %sel_tmp13
+
+
+ <State 3>: 4.11ns
+ST_3: newSel [1/1] 1.37ns
+newFuncRoot_ifconv:14  %newSel = select i1 %sel_tmp14, i5 -5, i5 -11
+
+ST_3: or_cond [1/1] 1.37ns
+newFuncRoot_ifconv:15  %or_cond = or i1 %sel_tmp14, %sel_tmp7
+
+ST_3: newSel1_cast_cast [1/1] 1.37ns
+newFuncRoot_ifconv:16  %newSel1_cast_cast = select i1 %sel_tmp2, i5 15, i5 9
+
+ST_3: or_cond2 [1/1] 1.37ns
+newFuncRoot_ifconv:17  %or_cond2 = or i1 %sel_tmp2, %tmp_s
+
+ST_3: newSel3 [1/1] 1.37ns
+newFuncRoot_ifconv:18  %newSel3 = select i1 %tmp_4, i6 -25, i6 -13
+
+ST_3: newSel5 [1/1] 1.37ns
+newFuncRoot_ifconv:19  %newSel5 = select i1 %or_cond, i5 %newSel, i5 %newSel1_cast_cast
+
+ST_3: newSel5_cast [1/1] 0.00ns
+newFuncRoot_ifconv:20  %newSel5_cast = zext i5 %newSel5 to i6
+
+ST_3: or_cond6 [1/1] 1.37ns
+newFuncRoot_ifconv:21  %or_cond6 = or i1 %or_cond, %or_cond2
+
+ST_3: newSel7 [1/1] 1.37ns
+newFuncRoot_ifconv:22  %newSel7 = select i1 %or_cond6, i6 %newSel5_cast, i6 %newSel3
+
+ST_3: stg_27 [1/1] 0.00ns
+newFuncRoot_ifconv:23  ret i6 %newSel7
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

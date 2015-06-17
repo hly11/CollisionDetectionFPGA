@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (lin64) Build 1215546 Mon Apr 27 19:07:21 MDT 2015
+| Date         : Wed Jun  3 14:01:54 2015
+| Host         : ubuntu running 64-bit Ubuntu 14.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_image_filter_fh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_image_filter_fh_0_0 (xilinx.com:hls:image_filter_fh:1.0) from (Rev. 1506030847) to (Rev. 1506031353)
+

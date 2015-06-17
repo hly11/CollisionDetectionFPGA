@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="top.cpp" path="/home/tim/top.cpp"/>
+    <originFiles name="top.h" path="/home/tim/top.h"/>
+  </source>
+  <testbench>
+    <originFiles name="top.cpp" path="/home/tim/top.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

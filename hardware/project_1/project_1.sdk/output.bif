@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/home/tim/project_1/project_1.sdk/zynq_fbsl3/Debug/zynq_fbsl3.elf
+	/home/tim/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+	/home/tim/u-boot-xlnx/u-boot.elf
+}

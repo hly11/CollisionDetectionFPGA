@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-36] Unable to schedule the protocol specified by region 'hls_label_8'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:29.888-0700" type="Warning"/>
+        <logs message="@W [SCHED-36] Invalid protocol 'hls_label_8': additional 'wait'(s) required after the multi-cycle operation:&#xA;   'fpext' operation ('d', top.cpp:993->top.cpp:1033)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:29.790-0700" type="Warning"/>
+        <logs message="@W [SCHED-36] Invalid protocol 'hls_label_8': additional 'wait'(s) required after the multi-cycle operation:&#xA;   'fmul' operation ('v', top.cpp:993->top.cpp:1033)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:29.777-0700" type="Warning"/>
+        <logs message="@W [SCHED-36] Invalid protocol 'hls_label_8': additional 'wait'(s) required after the multi-cycle operation:&#xA;   'fsub' operation ('temp', top.cpp:992->top.cpp:1033)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:29.731-0700" type="Warning"/>
+        <logs message="@W [SCHED-21] The critical path consists of the following:&#xA;&#x9;'load' operation ('x_load') on local variable 'x' (0 ns)&#xA;&#x9;'select' operation ('x', top.cpp:77) (1.37 ns)&#xA;&#x9;'add' operation ('x', top.cpp:151) (1.96 ns)&#xA;&#x9;multiplexor before 'phi' operation ('x') (1.57 ns)&#xA;&#x9;'store' operation (top.cpp:151) of variable 'x' on local variable 'x' (1.57 ns)" projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:28.038-0700" type="Warning"/>
+        <logs message="@W [SCHED-21] Estimated clock period (6.47ns) exceeds the target (target clock period: 6ns, clock uncertainty: 0.75ns, effective delay budget: 5.25ns)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:27.998-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_Block_.loopexit24.i_proc1' to 'image_filter_Block_loopexit24_i_proc1'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:25.617-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_AXIvideo2Mat&lt;32, 480, 640, 5>.1' to 'image_filter_AXIvideo2Mat_32_480_640_5_1'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:25.536-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_AXIvideo2Mat&lt;32, 480, 640, 5>' to 'image_filter_AXIvideo2Mat_32_480_640_5_s'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:25.482-0700" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'image_filter_Block_Mat.exit2020_proc' to 'image_filter_Block_Mat_exit2020_proc'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:25.455-0700" type="Warning"/>
+        <logs message="@W [XFORM-562] Loop 'Loop-1.1' (top.cpp:979) in function 'Loop_1_proc' has unknown bound because it has multiple exiting blocks." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:25.395-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'k_buf_val_val_1_0'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.642-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'k_buf_val_val_0_0'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.626-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'k_buf_val_val_1_0'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.611-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'k_buf_val_val_0_0'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.582-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'k_buf_val_val_1_0'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.544-0700" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'k_buf_val_val_0_0'." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.491-0700" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::sqrtf1' (/media/tim/New/Vivado_HLS/2015.1/common/technology/autopilot/hls_math.h:678:12) into sqrtf1." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:23.450-0700" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::AXIvideo2Mat&lt;32, 480, 640, 5>.1' (/media/tim/New/Vivado_HLS/2015.1/common/technology/autopilot/hls/hls_video_io.h:61:9) into AXIvideo2Mat&lt;32, 480, 640, 5>.1." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:21.061-0700" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::AXIvideo2Mat&lt;32, 480, 640, 5>' (/media/tim/New/Vivado_HLS/2015.1/common/technology/autopilot/hls/hls_video_io.h:49) into AXIvideo2Mat&lt;32, 480, 640, 5>." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:20.973-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_0_2.data_stream.V' (top.cpp:1014)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:15.985-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_0_1.data_stream.V' (top.cpp:1012)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:15.237-0700" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'img_resized.data_stream.V' (top.cpp:1013)." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:15.221-0700" type="Warning"/>
+        <logs message="@W [SYNCHK-23] top.cpp:161: variable-indexed range selection may cause suboptimal QoR." projectName="image_filter" solutionName="solution1" date="2015-06-04T17:29:14.463-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
